@@ -11,5 +11,5 @@ try {
 
 	surge({ default: "teardown" })([domain]);
 } catch (error) {
-	core.error(error.message);
+	core.warning(error);
 }
