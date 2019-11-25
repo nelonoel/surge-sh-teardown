@@ -23,13 +23,12 @@ on: delete
 
 jobs:
   teardown:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: nelonoel/surge-sh-teardown@v1
-    - with:
-			template: '$BRANCH-awesomesauce.surge.sh'
-		  login: ${{ secrets.SURGE_LOGIN }}
-		  token: ${{ secrets.SURGE_TOKEN }}
+      - uses: nelonoel/surge-sh-teardown@v1
+      - with:
+        template: "$BRANCH-awesomesauce.surge.sh"
+        login: ${{ secrets.SURGE_LOGIN }}
+        token: ${{ secrets.SURGE_TOKEN }}
 ```
