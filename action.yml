@@ -1,0 +1,18 @@
+name: 'Teardown surge.sh domain'
+description: 'Teardown surge.sh domain'
+branding:
+  icon: 'trash-2'
+  color: 'red'
+inputs:
+  template:
+    description: 'domain template where `$BRANCH` will be replaced with the deleted branch name'
+    required: true
+  login:
+    description: 'surge.sh login'
+    required: true
+  token:
+    description: 'surge.sh token, generate it with `surge token` command'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

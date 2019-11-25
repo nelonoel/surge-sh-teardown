@@ -1,0 +1,29 @@
+{
+  "name": "surge-sh-teardown",
+  "version": "1.0.0",
+  "description": "Teardown surge.sh domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelonoel/surge-sh-teardown.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "surge",
+    "ci"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelonoel/surge-sh-teardown/issues"
+  },
+  "homepage": "https://github.com/nelonoel/surge-sh-teardown#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "surge": "^0.21.3"
+  }
+}
