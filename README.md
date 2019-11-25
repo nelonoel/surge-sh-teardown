@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: nelonoel/surge-sh-teardown@v1
+      - uses: nelonoel/surge-sh-teardown@v1.0.4
       - with:
         template: "$BRANCH-awesomesauce.surge.sh"
         login: ${{ secrets.SURGE_LOGIN }}

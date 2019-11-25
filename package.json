@@ -1,6 +1,6 @@
 {
   "name": "surge-sh-teardown",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Teardown surge.sh domain",
   "main": "index.js",
   "scripts": {
