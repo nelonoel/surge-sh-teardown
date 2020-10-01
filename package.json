@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nelonoel/surge-sh-teardown#readme",
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.6",
     "surge": "^0.21.3"
   }
 }
